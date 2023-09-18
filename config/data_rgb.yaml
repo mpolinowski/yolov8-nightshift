@@ -1,0 +1,23 @@
+train: /opt/app/datasets/images_rgb_train/images
+val: /opt/app/datasets/images_rgb_val/images
+test: /opt/app/datasets/video_rgb_test/images
+
+nc: 16
+names: [
+  'person',
+  'bike',
+  'car',
+  'motor',
+  'bus',
+  'train',
+  'truck',
+  'light',
+  'hydrant',
+  'sign',
+  'dog',
+  'deer',
+  'skateboard',
+  'stroller',
+  'scooter',
+  'other vehicle'
+  ]
